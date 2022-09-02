@@ -7,139 +7,153 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F58E467D77BAC295F63A192 /* Pods_1__HelloRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C010BD856688167929FFE478 /* Pods_1__HelloRxSwift.framework */; };
-		5AD8938028B4FBA8005F33EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8937F28B4FBA8005F33EA /* AppDelegate.swift */; };
-		5AD8938228B4FBA8005F33EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8938128B4FBA8005F33EA /* SceneDelegate.swift */; };
-		5AD8938428B4FBA8005F33EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8938328B4FBA8005F33EA /* ViewController.swift */; };
-		5AD8938728B4FBA8005F33EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD8938528B4FBA8005F33EA /* Main.storyboard */; };
-		5AD8938A28B4FBA8005F33EA /* ___HelloRxSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8938828B4FBA8005F33EA /* ___HelloRxSwift.xcdatamodeld */; };
-		5AD8938C28B4FBA9005F33EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD8938B28B4FBA9005F33EA /* Assets.xcassets */; };
-		5AD8938F28B4FBA9005F33EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD8938D28B4FBA9005F33EA /* LaunchScreen.storyboard */; };
+		2336A3734DB15A3F0B674B98 /* Pods_5__GoodWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046ACB27445C670341A9687C /* Pods_5__GoodWeather.framework */; };
+		5A0FCFC628C1D03700CC7C87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0FCFC528C1D03700CC7C87 /* AppDelegate.swift */; };
+		5A0FCFC828C1D03700CC7C87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0FCFC728C1D03700CC7C87 /* SceneDelegate.swift */; };
+		5A0FCFCA28C1D03700CC7C87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0FCFC928C1D03700CC7C87 /* ViewController.swift */; };
+		5A0FCFCD28C1D03700CC7C87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0FCFCB28C1D03700CC7C87 /* Main.storyboard */; };
+		5A0FCFCF28C1D03800CC7C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A0FCFCE28C1D03800CC7C87 /* Assets.xcassets */; };
+		5A0FCFD228C1D03800CC7C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0FCFD028C1D03800CC7C87 /* LaunchScreen.storyboard */; };
+		5A0FCFDB28C1D2FD00CC7C87 /* WeatherResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0FCFDA28C1D2FD00CC7C87 /* WeatherResult.swift */; };
+		5A70039628C1D6F200EC0751 /* URLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A70039528C1D6F200EC0751 /* URLRequest+Extensions.swift */; };
+		5A70039828C2461600EC0751 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A70039728C2461600EC0751 /* URL+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		12782764BB6445BBBE409DC4 /* Pods-1. HelloRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-1. HelloRxSwift.release.xcconfig"; path = "Target Support Files/Pods-1. HelloRxSwift/Pods-1. HelloRxSwift.release.xcconfig"; sourceTree = "<group>"; };
-		247756649EA356CB6E54AF85 /* Pods-1. HelloRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-1. HelloRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-1. HelloRxSwift/Pods-1. HelloRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		5A47071F28C0A9F000AB52FA /* 4. RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "4. RxSwiftPlayground.playground"; path = "../../4. RxSwiftPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		5A9E1F0728B8A85C000CD439 /* 3. RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "3. RxSwiftPlayground.playground"; path = "../../3. RxSwiftPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		5AD8937C28B4FBA8005F33EA /* 1. HelloRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1. HelloRxSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AD8937F28B4FBA8005F33EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5AD8938128B4FBA8005F33EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5AD8938328B4FBA8005F33EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5AD8938628B4FBA8005F33EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5AD8938928B4FBA8005F33EA /* ___HelloRxSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "___HelloRxSwift.xcdatamodel"; sourceTree = "<group>"; };
-		5AD8938B28B4FBA9005F33EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5AD8938E28B4FBA9005F33EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5AD8939028B4FBA9005F33EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5AD8939628B4FBB8005F33EA /* 1. RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "1. RxSwiftPlayground.playground"; path = "../../1. RxSwiftPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		5AE05D4F28B74EA700D00A11 /* 2. RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "2. RxSwiftPlayground.playground"; path = "../../2. RxSwiftPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		C010BD856688167929FFE478 /* Pods_1__HelloRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_1__HelloRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		046ACB27445C670341A9687C /* Pods_5__GoodWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_5__GoodWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0FCFC228C1D03700CC7C87 /* 5. GoodWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5. GoodWeather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0FCFC528C1D03700CC7C87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A0FCFC728C1D03700CC7C87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A0FCFC928C1D03700CC7C87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A0FCFCC28C1D03700CC7C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A0FCFCE28C1D03800CC7C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A0FCFD128C1D03800CC7C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A0FCFD328C1D03800CC7C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A0FCFDA28C1D2FD00CC7C87 /* WeatherResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResult.swift; sourceTree = "<group>"; };
+		5A70039528C1D6F200EC0751 /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
+		5A70039728C2461600EC0751 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		B2D03A8086AA6F7E4CC92283 /* Pods-5. GoodWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5. GoodWeather.debug.xcconfig"; path = "Target Support Files/Pods-5. GoodWeather/Pods-5. GoodWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		F6DE31584686BC282798DAA4 /* Pods-5. GoodWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5. GoodWeather.release.xcconfig"; path = "Target Support Files/Pods-5. GoodWeather/Pods-5. GoodWeather.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5AD8937928B4FBA8005F33EA /* Frameworks */ = {
+		5A0FCFBF28C1D03700CC7C87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F58E467D77BAC295F63A192 /* Pods_1__HelloRxSwift.framework in Frameworks */,
+				2336A3734DB15A3F0B674B98 /* Pods_5__GoodWeather.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3AA4B0F3B03097B92D9FC037 /* Frameworks */ = {
+		2AF03E523491038F8D0259F4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C010BD856688167929FFE478 /* Pods_1__HelloRxSwift.framework */,
+				B2D03A8086AA6F7E4CC92283 /* Pods-5. GoodWeather.debug.xcconfig */,
+				F6DE31584686BC282798DAA4 /* Pods-5. GoodWeather.release.xcconfig */,
 			);
-			name = Frameworks;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		5AD8937328B4FBA8005F33EA = {
+		5A0FCFB928C1D03700CC7C87 = {
 			isa = PBXGroup;
 			children = (
-				5AD8937E28B4FBA8005F33EA /* 1. HelloRxSwift */,
-				5AD8937D28B4FBA8005F33EA /* Products */,
-				A0CE59679FD35757E6BBD618 /* Pods */,
-				3AA4B0F3B03097B92D9FC037 /* Frameworks */,
+				5A0FCFC428C1D03700CC7C87 /* 5. GoodWeather */,
+				5A0FCFC328C1D03700CC7C87 /* Products */,
+				2AF03E523491038F8D0259F4 /* Pods */,
+				AD4FFA01A227DE4C3175284D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		5AD8937D28B4FBA8005F33EA /* Products */ = {
+		5A0FCFC328C1D03700CC7C87 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AD8937C28B4FBA8005F33EA /* 1. HelloRxSwift.app */,
+				5A0FCFC228C1D03700CC7C87 /* 5. GoodWeather.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5AD8937E28B4FBA8005F33EA /* 1. HelloRxSwift */ = {
+		5A0FCFC428C1D03700CC7C87 /* 5. GoodWeather */ = {
 			isa = PBXGroup;
 			children = (
-				5A47071F28C0A9F000AB52FA /* 4. RxSwiftPlayground.playground */,
-				5A9E1F0728B8A85C000CD439 /* 3. RxSwiftPlayground.playground */,
-				5AD8939628B4FBB8005F33EA /* 1. RxSwiftPlayground.playground */,
-				5AE05D4F28B74EA700D00A11 /* 2. RxSwiftPlayground.playground */,
-				5AD8937F28B4FBA8005F33EA /* AppDelegate.swift */,
-				5AD8938128B4FBA8005F33EA /* SceneDelegate.swift */,
-				5AD8938328B4FBA8005F33EA /* ViewController.swift */,
-				5AD8938528B4FBA8005F33EA /* Main.storyboard */,
-				5AD8938B28B4FBA9005F33EA /* Assets.xcassets */,
-				5AD8938D28B4FBA9005F33EA /* LaunchScreen.storyboard */,
-				5AD8939028B4FBA9005F33EA /* Info.plist */,
-				5AD8938828B4FBA8005F33EA /* ___HelloRxSwift.xcdatamodeld */,
+				5A70039428C1D67B00EC0751 /* Extensions */,
+				5A0FCFD928C1D2F000CC7C87 /* Models */,
+				5A0FCFC528C1D03700CC7C87 /* AppDelegate.swift */,
+				5A0FCFC728C1D03700CC7C87 /* SceneDelegate.swift */,
+				5A0FCFC928C1D03700CC7C87 /* ViewController.swift */,
+				5A0FCFCB28C1D03700CC7C87 /* Main.storyboard */,
+				5A0FCFCE28C1D03800CC7C87 /* Assets.xcassets */,
+				5A0FCFD028C1D03800CC7C87 /* LaunchScreen.storyboard */,
+				5A0FCFD328C1D03800CC7C87 /* Info.plist */,
 			);
-			path = "1. HelloRxSwift";
+			path = "5. GoodWeather";
 			sourceTree = "<group>";
 		};
-		A0CE59679FD35757E6BBD618 /* Pods */ = {
+		5A0FCFD928C1D2F000CC7C87 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				247756649EA356CB6E54AF85 /* Pods-1. HelloRxSwift.debug.xcconfig */,
-				12782764BB6445BBBE409DC4 /* Pods-1. HelloRxSwift.release.xcconfig */,
+				5A0FCFDA28C1D2FD00CC7C87 /* WeatherResult.swift */,
 			);
-			path = Pods;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A70039428C1D67B00EC0751 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5A70039528C1D6F200EC0751 /* URLRequest+Extensions.swift */,
+				5A70039728C2461600EC0751 /* URL+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AD4FFA01A227DE4C3175284D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				046ACB27445C670341A9687C /* Pods_5__GoodWeather.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5AD8937B28B4FBA8005F33EA /* 1. HelloRxSwift */ = {
+		5A0FCFC128C1D03700CC7C87 /* 5. GoodWeather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AD8939328B4FBA9005F33EA /* Build configuration list for PBXNativeTarget "1. HelloRxSwift" */;
+			buildConfigurationList = 5A0FCFD628C1D03800CC7C87 /* Build configuration list for PBXNativeTarget "5. GoodWeather" */;
 			buildPhases = (
-				32F461D53AC0F9E609AC3B2E /* [CP] Check Pods Manifest.lock */,
-				5AD8937828B4FBA8005F33EA /* Sources */,
-				5AD8937928B4FBA8005F33EA /* Frameworks */,
-				5AD8937A28B4FBA8005F33EA /* Resources */,
-				341A0F90755B95C4E0F12DCC /* [CP] Embed Pods Frameworks */,
+				7A1615334D3D71FF3E0837DB /* [CP] Check Pods Manifest.lock */,
+				5A0FCFBE28C1D03700CC7C87 /* Sources */,
+				5A0FCFBF28C1D03700CC7C87 /* Frameworks */,
+				5A0FCFC028C1D03700CC7C87 /* Resources */,
+				CFBF14D59AE16F6B5DE0B208 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "1. HelloRxSwift";
-			productName = "1. HelloRxSwift";
-			productReference = 5AD8937C28B4FBA8005F33EA /* 1. HelloRxSwift.app */;
+			name = "5. GoodWeather";
+			productName = "5. GoodWeather";
+			productReference = 5A0FCFC228C1D03700CC7C87 /* 5. GoodWeather.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5AD8937428B4FBA8005F33EA /* Project object */ = {
+		5A0FCFBA28C1D03700CC7C87 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					5AD8937B28B4FBA8005F33EA = {
+					5A0FCFC128C1D03700CC7C87 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 5AD8937728B4FBA8005F33EA /* Build configuration list for PBXProject "1. HelloRxSwift" */;
+			buildConfigurationList = 5A0FCFBD28C1D03700CC7C87 /* Build configuration list for PBXProject "5. GoodWeather" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -147,31 +161,31 @@
 				en,
 				Base,
 			);
-			mainGroup = 5AD8937328B4FBA8005F33EA;
-			productRefGroup = 5AD8937D28B4FBA8005F33EA /* Products */;
+			mainGroup = 5A0FCFB928C1D03700CC7C87;
+			productRefGroup = 5A0FCFC328C1D03700CC7C87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5AD8937B28B4FBA8005F33EA /* 1. HelloRxSwift */,
+				5A0FCFC128C1D03700CC7C87 /* 5. GoodWeather */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5AD8937A28B4FBA8005F33EA /* Resources */ = {
+		5A0FCFC028C1D03700CC7C87 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AD8938F28B4FBA9005F33EA /* LaunchScreen.storyboard in Resources */,
-				5AD8938C28B4FBA9005F33EA /* Assets.xcassets in Resources */,
-				5AD8938728B4FBA8005F33EA /* Main.storyboard in Resources */,
+				5A0FCFD228C1D03800CC7C87 /* LaunchScreen.storyboard in Resources */,
+				5A0FCFCF28C1D03800CC7C87 /* Assets.xcassets in Resources */,
+				5A0FCFCD28C1D03700CC7C87 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		32F461D53AC0F9E609AC3B2E /* [CP] Check Pods Manifest.lock */ = {
+		7A1615334D3D71FF3E0837DB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -186,59 +200,61 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-1. HelloRxSwift-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-5. GoodWeather-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		341A0F90755B95C4E0F12DCC /* [CP] Embed Pods Frameworks */ = {
+		CFBF14D59AE16F6B5DE0B208 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-1. HelloRxSwift/Pods-1. HelloRxSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-5. GoodWeather/Pods-5. GoodWeather-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-1. HelloRxSwift/Pods-1. HelloRxSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-5. GoodWeather/Pods-5. GoodWeather-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-1. HelloRxSwift/Pods-1. HelloRxSwift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-5. GoodWeather/Pods-5. GoodWeather-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5AD8937828B4FBA8005F33EA /* Sources */ = {
+		5A0FCFBE28C1D03700CC7C87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AD8938A28B4FBA8005F33EA /* ___HelloRxSwift.xcdatamodeld in Sources */,
-				5AD8938428B4FBA8005F33EA /* ViewController.swift in Sources */,
-				5AD8938028B4FBA8005F33EA /* AppDelegate.swift in Sources */,
-				5AD8938228B4FBA8005F33EA /* SceneDelegate.swift in Sources */,
+				5A70039628C1D6F200EC0751 /* URLRequest+Extensions.swift in Sources */,
+				5A70039828C2461600EC0751 /* URL+Extensions.swift in Sources */,
+				5A0FCFCA28C1D03700CC7C87 /* ViewController.swift in Sources */,
+				5A0FCFDB28C1D2FD00CC7C87 /* WeatherResult.swift in Sources */,
+				5A0FCFC628C1D03700CC7C87 /* AppDelegate.swift in Sources */,
+				5A0FCFC828C1D03700CC7C87 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5AD8938528B4FBA8005F33EA /* Main.storyboard */ = {
+		5A0FCFCB28C1D03700CC7C87 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5AD8938628B4FBA8005F33EA /* Base */,
+				5A0FCFCC28C1D03700CC7C87 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5AD8938D28B4FBA9005F33EA /* LaunchScreen.storyboard */ = {
+		5A0FCFD028C1D03800CC7C87 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5AD8938E28B4FBA9005F33EA /* Base */,
+				5A0FCFD128C1D03800CC7C87 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -246,7 +262,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5AD8939128B4FBA9005F33EA /* Debug */ = {
+		5A0FCFD428C1D03800CC7C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -306,7 +322,7 @@
 			};
 			name = Debug;
 		};
-		5AD8939228B4FBA9005F33EA /* Release */ = {
+		5A0FCFD528C1D03800CC7C87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -360,9 +376,9 @@
 			};
 			name = Release;
 		};
-		5AD8939428B4FBA9005F33EA /* Debug */ = {
+		5A0FCFD728C1D03800CC7C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 247756649EA356CB6E54AF85 /* Pods-1. HelloRxSwift.debug.xcconfig */;
+			baseConfigurationReference = B2D03A8086AA6F7E4CC92283 /* Pods-5. GoodWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -370,7 +386,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CYS4W9265H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "1. HelloRxSwift/Info.plist";
+				INFOPLIST_FILE = "5. GoodWeather/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -381,7 +397,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jinny.---HelloRxSwift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jinny.---GoodWeather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -389,9 +405,9 @@
 			};
 			name = Debug;
 		};
-		5AD8939528B4FBA9005F33EA /* Release */ = {
+		5A0FCFD828C1D03800CC7C87 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12782764BB6445BBBE409DC4 /* Pods-1. HelloRxSwift.release.xcconfig */;
+			baseConfigurationReference = F6DE31584686BC282798DAA4 /* Pods-5. GoodWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -399,7 +415,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CYS4W9265H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "1. HelloRxSwift/Info.plist";
+				INFOPLIST_FILE = "5. GoodWeather/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -410,7 +426,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jinny.---HelloRxSwift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jinny.---GoodWeather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -421,38 +437,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5AD8937728B4FBA8005F33EA /* Build configuration list for PBXProject "1. HelloRxSwift" */ = {
+		5A0FCFBD28C1D03700CC7C87 /* Build configuration list for PBXProject "5. GoodWeather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AD8939128B4FBA9005F33EA /* Debug */,
-				5AD8939228B4FBA9005F33EA /* Release */,
+				5A0FCFD428C1D03800CC7C87 /* Debug */,
+				5A0FCFD528C1D03800CC7C87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AD8939328B4FBA9005F33EA /* Build configuration list for PBXNativeTarget "1. HelloRxSwift" */ = {
+		5A0FCFD628C1D03800CC7C87 /* Build configuration list for PBXNativeTarget "5. GoodWeather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AD8939428B4FBA9005F33EA /* Debug */,
-				5AD8939528B4FBA9005F33EA /* Release */,
+				5A0FCFD728C1D03800CC7C87 /* Debug */,
+				5A0FCFD828C1D03800CC7C87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		5AD8938828B4FBA8005F33EA /* ___HelloRxSwift.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				5AD8938928B4FBA8005F33EA /* ___HelloRxSwift.xcdatamodel */,
-			);
-			currentVersion = 5AD8938928B4FBA8005F33EA /* ___HelloRxSwift.xcdatamodel */;
-			path = "___HelloRxSwift.xcdatamodeld";
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 5AD8937428B4FBA8005F33EA /* Project object */;
+	rootObject = 5A0FCFBA28C1D03700CC7C87 /* Project object */;
 }
