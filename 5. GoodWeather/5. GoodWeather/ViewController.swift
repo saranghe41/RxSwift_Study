@@ -39,9 +39,20 @@ class ViewController: UIViewController {
         
         let resource = Resource<WeatherResult>(url: url)
         
+        // RxCocoa Error catch문, retry문 추가
+        let search = URLRequest.load(resource: resource)
+            .observeOn(MainScheduler.instance)
+            .retry(3)
+            .catchError { error in
+                print(error.localizedDescription)
+                return Observable.just(WeatherResult.empty)
+            }.asDriver(onErrorJustReturn: WeatherResult.empty)
+        
+        /*
         let search = URLRequest.load(resource: resource)
             .observeOn(MainScheduler.instance) // DispatchQeue.main.asnyc 대신 사용(?)
             .asDriver(onErrorJustReturn: WeatherResult.empty) //.catchErrorJustReturn(WeatherResult.empty)
+        */
         
         // RxCocoa 방식
         search.map { "\($0.main.temp) ℉" }
