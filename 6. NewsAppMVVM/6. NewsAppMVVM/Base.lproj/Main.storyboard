@@ -16,13 +16,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="cVJ-1Z-rf6">
-                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ArticleTableViewCell" rowHeight="80" id="cVJ-1Z-rf6" customClass="ArticleTableViewCell" customModule="___NewsAppMVVM" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cVJ-1Z-rf6" id="zJJ-PJ-vv8">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Zjv-Zp-oaL">
+                                            <rect key="frame" x="30" y="16" width="354" height="48"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aX2-bZ-Ust">
+                                                    <rect key="frame" x="0.0" y="0.0" width="354" height="23"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNG-PE-LqW">
+                                                    <rect key="frame" x="0.0" y="31" width="354" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Zjv-Zp-oaL" secondAttribute="bottom" constant="5" id="IVo-K4-7gp"/>
+                                        <constraint firstItem="Zjv-Zp-oaL" firstAttribute="leading" secondItem="zJJ-PJ-vv8" secondAttribute="leadingMargin" constant="10" id="VIp-wt-GPI"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Zjv-Zp-oaL" secondAttribute="trailing" constant="10" id="a4O-gZ-bWh"/>
+                                        <constraint firstItem="Zjv-Zp-oaL" firstAttribute="top" secondItem="zJJ-PJ-vv8" secondAttribute="topMargin" constant="5" id="kuR-a5-fVP"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="nNG-PE-LqW" id="bKO-E0-Fjk"/>
+                                    <outlet property="titleLabel" destination="aX2-bZ-Ust" id="6Gc-J3-2oq"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

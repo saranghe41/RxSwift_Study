@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5718AD8B3F629D4B90ECB293 /* Pods_6__NewsAppMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2EB4CD88B9EBCAA6F5BEA4 /* Pods_6__NewsAppMVVM.framework */; };
+		5A15B1AA28C8695300E11200 /* URLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A15B1A928C8695300E11200 /* URLRequest+Extensions.swift */; };
+		5A15B1AD28C86FA300E11200 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A15B1AC28C86FA300E11200 /* ArticleViewModel.swift */; };
+		5A15B1B028C8773800E11200 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A15B1AF28C8773800E11200 /* ArticleTableViewCell.swift */; };
 		5AC6FA8C28C7815A009617F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC6FA8B28C7815A009617F9 /* AppDelegate.swift */; };
 		5AC6FA8E28C7815A009617F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC6FA8D28C7815A009617F9 /* SceneDelegate.swift */; };
 		5AC6FA9028C7815A009617F9 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC6FA8F28C7815A009617F9 /* NewsTableViewController.swift */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		3EB4338C95DD78DBE1F8829A /* Pods-6. NewsAppMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-6. NewsAppMVVM.debug.xcconfig"; path = "Target Support Files/Pods-6. NewsAppMVVM/Pods-6. NewsAppMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		5A15B1A928C8695300E11200 /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
+		5A15B1AC28C86FA300E11200 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		5A15B1AF28C8773800E11200 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 		5AC6FA8828C7815A009617F9 /* 6. NewsAppMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "6. NewsAppMVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC6FA8B28C7815A009617F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AC6FA8D28C7815A009617F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,8 +56,31 @@
 				3EB4338C95DD78DBE1F8829A /* Pods-6. NewsAppMVVM.debug.xcconfig */,
 				A6997785A53BAFBA519AC803 /* Pods-6. NewsAppMVVM.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		5A15B1A828C8693E00E11200 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5A15B1A928C8695300E11200 /* URLRequest+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5A15B1AB28C86F9500E11200 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5A15B1AC28C86FA300E11200 /* ArticleViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5A15B1AE28C8772C00E11200 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5A15B1AF28C8773800E11200 /* ArticleTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		5AC6FA7F28C7815A009617F9 = {
@@ -75,6 +104,9 @@
 		5AC6FA8A28C7815A009617F9 /* 6. NewsAppMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				5A15B1AE28C8772C00E11200 /* Cells */,
+				5A15B1AB28C86F9500E11200 /* ViewModels */,
+				5A15B1A828C8693E00E11200 /* Extensions */,
 				5AC6FAA028C78F18009617F9 /* Models */,
 				5AC6FA9F28C78598009617F9 /* Controllers */,
 				5AC6FA8B28C7815A009617F9 /* AppDelegate.swift */,
@@ -229,6 +261,9 @@
 				5AC6FAA228C78F34009617F9 /* Article.swift in Sources */,
 				5AC6FA9028C7815A009617F9 /* NewsTableViewController.swift in Sources */,
 				5AC6FA8C28C7815A009617F9 /* AppDelegate.swift in Sources */,
+				5A15B1AD28C86FA300E11200 /* ArticleViewModel.swift in Sources */,
+				5A15B1AA28C8695300E11200 /* URLRequest+Extensions.swift in Sources */,
+				5A15B1B028C8773800E11200 /* ArticleTableViewCell.swift in Sources */,
 				5AC6FA8E28C7815A009617F9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
